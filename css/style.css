@@ -37,6 +37,12 @@ h1,h2,h3,h4,h5,h6 {
     color: white;
 }
 
+a {
+    color: var(--body);
+    text-decoration: none;
+    transition: all 0.4s ease;
+}
+
 img {
     width: 100%;
 }
@@ -78,4 +84,45 @@ section {
 
 .btn-outline-brand:hover {
     background-color: var(--brand);
+}
+
+#sobre h6 {
+    color: var(--brand);
+}
+
+#sobre {
+    position: relative;
+}
+
+#sobre::after {
+    content: "";
+    width: 25%;
+    height: 100%;
+    background-color: var(--brand);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+#sobre h1 {
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+.team-member {
+    position: relative;
+}
+
+#avaliacoes {
+    background-color: var(--bg2);
+}
+
+.review {
+    padding: 32px;
+}
+
+.review img {
+    width: 60px;
+    border-radius: 100px;
 }
