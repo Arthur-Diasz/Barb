@@ -13,7 +13,7 @@
 body {
     font-family: "Inter", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: var(--body);
-    background-color: var(--bg1);
+    background-color: var(--bg2);
    
 }
 
@@ -100,6 +100,8 @@ section {
     min-height: 100vh;
     background-position: center;
     background-size: cover;
+    align-items: center;
+    display: flex;
 }
 
 #inicio p {
@@ -162,8 +164,8 @@ section {
 
 /* SERVIÇOS */
 
-#serviços {
-    background-color: var(--bg2);
+#servicos {
+    background-color: var(--bg1);
 }
 
 #servicos .servico .content {
@@ -174,6 +176,45 @@ section {
     margin-top: 18px;
     margin-bottom: 18px;
 }
+
+
+
+/* CONQUISTAS */
+#conquistas {
+    background: linear-gradient(to right, #1B1F34, rgba(29, 36, 71, 0.3)), url(../img/cover_2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#conquistas h1 {
+    color: var(--brand);
+}
+
+/* Diferenciais */
+
+#diferenciais {
+    background-color: var(--bg1);
+}
+
+
+.feature img {
+    height: 38px;
+    width: 38px;
+    line-height: 1;
+    margin-right: 16px;
+}
+
+.feature {
+    display: flex;
+}
+
+.feature p {
+    font-size: 14px;
+    margin-top: 16px;
+    margin-bottom: 16px;
+
+}
+
 
 
 /* EQUIPE */
@@ -201,12 +242,27 @@ section {
 
 
 
-#avaliacoes {
-    background-color: var(--bg2);
+#reviews {
+    background-color: var(--bg1);
 }
 
 .review {
     padding: 32px;
+    background-color: var(--bg2);
+    position: relative;
+}
+
+.review .icon {
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    background-color: var(--brand);
+    color: var(--bg1);
+    justify-content: center;
+    border-radius: 100px;
+    position: absolute;
+    right: 48px;
 }
 
 .review img {
@@ -214,3 +270,65 @@ section {
     border-radius: 100px;
 }
 
+
+/* CONTATO */
+
+#contato{
+    background: linear-gradient(to right,rgba(27, 31, 52, 0.8), rgba(27, 31, 52, 0.8)), url(../img/cover_2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#contato form{
+    background-color: var(--bg1);
+    padding: 32px;
+}
+
+#contato form .form-control{
+    background-color: var(--bg2);
+    border-radius: 0;
+    margin-top: 16px;
+    border-color: var(--bg2);
+    border: 2px solid var(--bg2);
+    color: var(--white);
+}
+
+#contato form input{
+    height: 58px;
+}
+
+#contato form .form-control:focus{
+    box-shadow: none;
+    border-left-color: var(--brand);
+}
+
+
+/* FOOTER */
+
+footer {
+    padding-top: 160px;
+}
+
+.social-links a {
+    width: 48px;
+    height: 48px;
+    background-color: var(--bg2);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.social-links a:hover {
+    background-color: var(--brand);
+    color: var(--bg1);
+}
+
+.footer-top {
+    padding-bottom: 30px;
+}
+
+.footer-bottom {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid var(--body);
+}
