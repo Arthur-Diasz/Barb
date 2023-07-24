@@ -3,561 +3,227 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Barba e Navalha</title>
-    <link rel="stylesheet" href="remixicons/fonts/remixicon.css" />
-    <link rel="stylesheet" href="css/bootstrap.min.css" />
-    <link rel="stylesheet" href="css/global.css" />
+    <title>ArthurDEV</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Poppins&display=swap"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/responsivo.css" />
   </head>
 
-  <body data-bs-spy="scroll" data-bs-target=".navbar">
-
-    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-      <div class="container">
-        <a class="navbar-brand" href="#">Barba e Navalha</a>
-        <button
-          class="navbar-toggler"
-          type="button"
-          data-bs-toggle="collapse"
-          data-bs-target="#navbarNav"
-          aria-controls="navbarNav"
-          aria-expanded="false"
-          aria-label="Toggle navigation"
-        >
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNav">
-          <ul class="navbar-nav ms-auto">
-            <li class="nav-item">
-              <a class="nav-link active" href="#inicio">Inicio</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#sobre">Sobre</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#servicos">Serviços</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#diferenciais">Difrenciais</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#equipe">Equipe</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#reviews">Avaliações</a>
-            </li>
-          </ul>
-          <a href="#contato" class="btn btn-outline-brand ms-lg-3">Contato</a>
+  <body>
+    <header>
+      <nav>
+        <a href="/" id="logo"> ArthurDEV</a>
+        <div class="mobile-menu">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
         </div>
-      </div>
-    </nav>
+        <ul class="nav-list">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="portfolio.html">Portfolio</a></li>
+          <li id="link-contato"><a href="contato.html">Contato</a></li>
+          <div class="botao">
+            <a href="/" class="btn" id="btn-header">Pedir orçamento</a>
+          </div>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="inicio">
+        <div class="texto-inicio">
+          <h1>Seja exclusivo.</h1>
+          <p>
+            Desenvolvimento de sites profissionais com foco na experiência do
+            usuário. O poder do design, a essência da experiência.
+          </p>
+          <a href="#diferenciais" class="btn-escuro" id="btn-inicio"
+            >Veja meus diferenciais
+            <img src="img/arrow-down.png" class="icon" alt="Seta para baixo"
+          /></a>
+        </div>
+        <div id="inicio-imagens">
+          <img
+            class="inicio-imagem"
+            id="imagem1"
+            src="img/BarbaENavalha.jpeg"
+            alt="Barba e Navalha preview"
+          />
 
-    <section id="inicio">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-6">
-            <h1 class="display-3">Revele o Estilo Autêntico: Sua Barbearia de Confiança</h1>
+          <img
+            class="inicio-imagem"
+            id="imagem2"
+            src="img/bikcraft.png"
+            alt="Bik Craf preview"
+          />
+          <img
+            class="inicio-imagem"
+            id="imagem3"
+            src="img/Cake House _ UI _ Concept.jpg"
+            alt="Cake House preview"
+          />
+          <img
+            class="inicio-imagem"
+            id="imagem4"
+            src="img/Cake House _ UI _ Concept.jpg"
+            alt="imagem"
+          />
+          <img
+            class="inicio-imagem"
+            id="imagem5"
+            src="img/Cake House _ UI _ Concept.jpg"
+            alt="imagem"
+          />
+          <img
+            class="inicio-imagem"
+            id="imagem6"
+            src="img/Cake House _ UI _ Concept.jpg"
+            alt="imagem"
+          />
+          <img
+            class="inicio-imagem"
+            id="imagem7"
+            src="img/Cake House _ UI _ Concept.jpg"
+            alt="imagem"
+          />
+        </div>
+      </section>
+
+      <section id="diferenciais">
+        <div class="diferenciais-header">
+          <div class="textos">
+            <h6>Meus diferenciais</h6>
+            <h2>Design Otimizado</h2>
+            <p>Porquê os meus sites se destacam do outros</p>
+          </div>
+          <div id="diferenciais-botoes">
+            <a href="/" class="btn btn-escuro"> Pedir Orçamento</a>
+            <a href="portfolio.html" class="btn btn-claro">Portfolio</a>
+          </div>
+        </div>
+        <div id="diferenciais-detalhes">
+          <div class="diferencial">
+            <h1>Convertem clientes</h1>
             <p>
-             Descubra o poder da autenticidade masculina. Na nossa barbearia, unimos tradição e estilo para transformar cada corte em uma obra-prima.
+              <span class="negrito"> Design único e moderno. </span>Meus sites
+              conseguem cativar e envolver os usuários através do design,
+              passando confiança e mostrando autoridade.
             </p>
-            <a href="" class="btn btn-brand btn-lg"> Entre em contato</a>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="sobre">
-      <div class="container">
-        <div class="row align-items center">
-          <div class="col-lg-5">
-            <img src="img/about_img.png" alt="" />
-          </div>
-          <div class="col-lg-4 offset-lg-1">
-            <h6>Sobre</h6>
-            <h1>Conheça nosso salão</h1>
+          <div class="diferencial">
+            <h1>Destaques no Google</h1>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo
-              quisquam delectus fuga et veritatis tempora incidunt animi
-              mollitia iure!
-            </p>
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Distinctio mollitia quibusdam, eos suscipit minus quae maxime
-              molestiae porro ad earum id debitis laboriosam sunt voluptatum,
-              ea, praesentium corporis fugit iure?
+              <span class="negrito">Sempre na primeira página. </span>Meus sites
+              conseguem dominar os sistemas de buscas através de um design
+              estruturado, um código limpo e bem otimizado.
             </p>
           </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="servicos">
-      <div class="container text-center">
-        <div class="row">
-          <div class="col-12 intro">
-            <h6>Serviços</h6>
-            <h1>Temos uma diversidade de serviços oferecidos</h1>
-          </div>
-        </div>
-        <div class="row">
-          <div class="col-lg-4 col-md-6">
-            <div class="servico">
-              <img src="img/service_1.jpg" alt="" />
-              <div class="content">
-                <h3 class="h5">Cabelo</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Dolorum quia possimus consequatur nihil, necessitatibus esse
-                  nemo odit?
-                </p>
-                <a href="#" class="link-more">
-                  Saiba mais
-                  <img
-                    class="icon"
-                    src="img\arrow-right-line.svg"
-                    id="icone"
-                    alt=""
-                /></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="servico">
-              <img src="img/service_2.jpg" alt="" />
-              <div class="content">
-                <h3 class="h5">Barba</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Dolorum quia possimus consequatur nihil, necessitatibus esse
-                  nemo odit?
-                </p>
-                <a href="#" class="link-more">
-                  Saiba mais
-                  <img
-                    class="icon"
-                    src="img\arrow-right-line.svg"
-                    id="icone"
-                    alt=""
-                /></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-md-6">
-            <div class="servico">
-              <img src="img/service_3.jpg" alt="" />
-              <div class="content">
-                <h3 class="h5">Corte e Tingimento</h3>
-                <p>
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                  Dolorum quia possimus consequatur nihil, necessitatibus esse
-                  nemo odit?
-                </p>
-                <a href="#" class="link-more">
-                  Saiba mais
-                  <img
-                    class="icon"
-                    src="img\arrow-right-line.svg"
-                    id="icone"
-                    alt=""
-                /></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="cta-btns">
-          <a href="#" class="btn btn-brand btn-lg">Entre em contato</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="conquistas">
-      <div class="container text-center">
-        <div class="row text">
-          <div class="col-lg-4 col-sm-6 counter">
-            <h1>2529</h1>
-            <p>Clientes Felizes</p>
-          </div>
-          <div class="col-lg-4 col-sm-6 counter">
-            <h1>12</h1>
-            <p>Anos de Experiência</p>
-          </div>
-          <div class="col-lg-4 col-sm-6 counter">
-            <h1>32</h1>
-            <p>Prêmios e Certificações</p>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <section id="diferenciais">
-      <div class="container">
-        <div class="row">
-          <div class="col-12 intro text-center">
-            <h6>Nossos Diferenciais</h6>
-            <h1>Por que nos escolher em vez de outros salões?</h1>
-          </div>
-        </div>
-        <div class="row gy-5">
-          <div class="col-lg-4 col-sm-6">
-            <div class="feature">
-              <div class="icon"><img src="img/diploma.png" alt="" /></div>
-              <div class="div">
-                <h3 class="h5">Experiência e Qualidade</h3>
-                <p>
-                  Nossa equipe altamente experiente e qualificada garante
-                  resultados excepcionais para cada cliente, com cortes e
-                  estilos de cabelo impecáveis e técnicas de coloração precisas.
-                </p>
-                <a href="#" class="link-more">
-                  Saiba mais
-                  <img
-                    class="icon"
-                    src="img\arrow-right-line.svg"
-                    id="icone"
-                    alt=""
-                /></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-sm-6">
-            <div class="feature">
-              <div class="icon"><img src="img/falando.png" alt="" /></div>
-              <div class="div">
-                <h3 class="h5">Atendimento Personalizado</h3>
-                <p>
-                  Valorizamos cada cliente individualmente, oferecendo consultas
-                  detalhadas e ouvindo suas preferências para criar looks
-                  personalizados que realcem sua beleza única.
-                </p>
-                <a href="#" class="link-more">
-                  Saiba mais
-                  <img
-                    class="icon"
-                    src="img\arrow-right-line.svg"
-                    id="icone"
-                    alt=""
-                /></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-sm-6">
-            <div class="feature">
-              <div class="icon">
-                <img src="img/cadeira-de-salao.png" alt="" />
-              </div>
-              <div class="div">
-                <h3 class="h5">Ambiente Acolhedor</h3>
-                <p>
-                  Proporcionamos um ambiente acolhedor e relaxante, onde você
-                  pode se sentir à vontade enquanto nossos profissionais cuidam
-                  do seu cabelo, proporcionando uma experiência tranquila e
-                  agradável.
-                </p>
-                <a href="#" class="link-more">
-                  Saiba mais
-                  <img
-                    class="icon"
-                    src="img\arrow-right-line.svg"
-                    id="icone"
-                    alt=""
-                /></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-sm-6">
-            <div class="feature">
-              <div class="icon"><img src="img/hair-salon.png" alt="" /></div>
-              <div class="div">
-                <h3 class="h5">Variedade de Serviços</h3>
-                <p>
-                  Oferecemos uma ampla variedade de serviços, desde cortes
-                  modernos e estilos elegantes até tratamentos capilares
-                  luxuosos, garantindo que você encontre tudo o que precisa em
-                  um só lugar.
-                </p>
-                <a href="#" class="link-more">
-                  Saiba mais
-                  <img
-                    class="icon"
-                    src="img\arrow-right-line.svg"
-                    id="icone"
-                    alt=""
-                /></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-sm-6">
-            <div class="feature">
-              <div class="icon">
-                <img src="img/etiqueta-de-preco.png" alt="" />
-              </div>
-              <div class="div">
-                <h3 class="h5">Produtos de Qualidade</h3>
-                <p>
-                  Utilizamos apenas os melhores produtos, cuidadosamente
-                  selecionados, para garantir que seu cabelo receba tratamento
-                  de alta qualidade, deixando-o saudável, brilhante e
-                  deslumbrante.
-                </p>
-                <a href="#" class="link-more">
-                  Saiba mais
-                  <img
-                    class="icon"
-                    src="img\arrow-right-line.svg"
-                    id="icone"
-                    alt=""
-                /></a>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-4 col-sm-6">
-            <div class="feature">
-              <div class="icon"><img src="img/avaliacao.png" alt="" /></div>
-              <div class="div">
-                <h3 class="h5">Satisfação do Cliente</h3>
-                <p>
-                  Nossos clientes satisfeitos são nossa maior prioridade. Suas
-                  avaliações e depoimentos positivos são um testemunho da
-                  qualidade dos nossos serviços e do seu alto nível de
-                  satisfação.
-                </p>
-                <a href="#" class="link-more">
-                  Saiba mais
-                  <img
-                    class="icon"
-                    src="img\arrow-right-line.svg"
-                    id="icone"
-                    alt=""
-                /></a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="cta-btns text-center mt-5">
-          <a href="#" class="btn btn-brand btn-lg">Entre em contato</a>
-        </div>
-      </div>
-    </section>
-
-    <section id="equipe">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-12 intro next-text">
-            <h6>Equipe</h6>
-            <h1>Conheça nossa equipe de profissionais qualificados</h1>
+          <div class="diferencial">
+            <h1>Simples de administrar</h1>
             <p>
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nemo
-              quisquam delectus fuga et veritatis tempora incidunt animi
-              mollitia iure!
+              <span class="negrito"> Controle total nas suas mãos.</span> Meus
+              sites oferecem um painel de controle intuitivo que permite a você
+              realizar modificações de forma simples e fácil. Não dependa mais
+              de agências e tenha o poder de gerenciar seu próprio conteúdo.
+            </p>
+          </div>
+          <div class="diferencial">
+            <h1>Parceria sempre</h1>
+            <p>
+              <span class="negrito"> Apoio constante garantido.</span> Estou
+              sempre disponível para auxiliá-lo em todas as suas necessidades.
+              Meu objetivo é transformar o seu site em mais um case de sucesso
+              do meu portfólio. Juntos, alcançaremos resultados excepcionais.
             </p>
           </div>
         </div>
+      </section>
 
-        <div class="row text-center">
-          <div class="col-lg-4 col-md-6">
-            <div class="team-member">
-              <img class="foto-equipe" src="img/team_member1.jpg" alt="" />
-              <h5 class="mt-4">Gustavo Ferreira</h5>
-              <small>Cabeleireiro</small>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="team-member">
-              <img class="foto-equipe" src="img/team_member2.jpg" alt="" />
-              <h5 class="mt-4">Alexandre Silva</h5>
-              <small>Cabeleireiro</small>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="team-member">
-              <img class="foto-equipe" src="img/team_member3.jpg" alt="" />
-              <h5 class="mt-4">Lucas Santos</h5>
-              <small>Cabeleireiro</small>
-            </div>
-          </div>
+      <section id="portfolio">
+        <h6>Meus Projetos</h6>
+        <div id="projetos">
+          <div class="projeto"></div>
+          <div class="projeto"></div>
+          <div class="projeto"></div>
+          <div class="projeto"></div>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section id="reviews">
-      <div class="container">
-        <div class="row text-center">
-          <div class="col-12 intro next-text">
-            <h6>Avaliações</h6>
-            <h1>Veja o que nossos clientes acham do salão</h1>
+      <section id="sobre">
+        <article>
+          <div class="sobre-texto">
+            <h6>Olá, tudo bem?</h6>
+            <h2>Prazer, Arthur.</h2>
+            <p id="p1">
+              Comecei programando em blocos de códigos <br />
+              casualmente com 16 anos, hoje sou especialista <br />
+              e apaixonado por Web Design e criação de sites.
+            </p>
+            <p id="p2">
+              Através de um design incrível, crio soluções atraentes <br />
+              e diferenciadas que transmitem de forma eficiente a <br />
+              mensagem que seu negócio precisa passar ao seu cliente,
+              <br />gerando assim mais oportunidades.
+            </p>
+            <p id="p3">
+              Se você está em busca de um site exclusivo, que reflita a <br />
+              identidade do seu negócio e cative seus visitantes, estou <br />
+              pronto para transformar suas ideias em realidade.
+            </p>
           </div>
-        </div>
+          <div class="sobre-links">
+            <h5>Vamos nos conectar</h5>
+            <ul id="social-links">
+              <li class="social-link">
+                <a href="" target="_blank" rel="noopener noreferrer">
+                  <img class="icon" src="img/icons/icons8-github.svg" alt="Github" />
+                  <span>GitHub</span>
+                </a>
+              </li>
+              <li class="social-link">
+                <a href="" target="_blank" rel="noopener noreferrer">
+                  <img
+                    class="icon"
+                    src="img/icons/icons8-instagram.svg"
+                    alt="Instagram"
+                  />
+                  <span>Instagram</span>
+                </a>
+              </li>
+              <li class="social-link">
+                <a href="http://" target="_blank" rel="noopener noreferrer">
+                  <img
+                    class="icon"
+                    src="img/icons/icons8-linkedin.svg"
+                    alt="linkedin"
+                  />
+                  <span>Linkedin</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </article>
+      </section>
 
-        <div class="row gy-4">
-          <div class="col-lg-4 col-md-6">
-            <div class="review">
-              <div class="d-flex">
-                <img src="img/avatar_01.jpg" alt="" />
-                <h5 class="ms-3">Lucas Silva</h5>
-                <div class="icon"><i class="ri-google-fill"></i></div>
-              </div>
-              <p class="mt-4">Serviço impecável, definitivamente recomendo!</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="review">
-              <div class="d-flex">
-                <img src="img/avatar_02.jpg" alt="" />
-                <h5 class="ms-3">Luiz Nunes</h5>
-                <div class="icon"><i class="ri-google-fill"></i></div>
-              </div>
-              <p class="mt-4">Profissional habilidoso, ambiente agradável. Ótima experiência.</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="review">
-              <div class="d-flex">
-                <img src="img/avatar_03.jpg" alt="" />
-                <h5 class="ms-3">Bruno Santos </h5>
-                <div class="icon"><i class="ri-google-fill"></i></div>
-              </div>
-              <p class="mt-4">Estilo único, equipe competente. Os melhores da cidade!!</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="review">
-              <div class="d-flex">
-                <img src="img/avatar_04.jpg" alt="" />
-                <h5 class="ms-3">Tiago Alves</h5>
-                <div class="icon"><i class="ri-google-fill"></i></div>
-              </div>
-              <p class="mt-4">Atendimento excepcional, resultado incrível. Recomendo muito!</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="review">
-              <div class="d-flex">
-                <img src="img/avatar_05.jpg" alt="" />
-                <h5 class="ms-3">André Costa</h5>
-                <div class="icon"><i class="ri-google-fill"></i></div>
-              </div>
-              <p class="mt-4">Serviço de qualidade, ótimo custo-benefício. Recomendo!</p>
-            </div>
-          </div>
-          <div class="col-lg-4 col-md-6">
-            <div class="review">
-              <div class="d-flex">
-                <img src="img/avatar_06.jpg" alt="" />
-                <h5 class="ms-3">Davi Carvalho</h5>
-                <div class="icon"><i class="ri-google-fill"></i></div>
-              </div>
-              <p class="mt-4">Corte moderno e estiloso, equipe atenciosa. Excelente!</p>
-            </div>
-          </div>
-          
-        </div>
-        <div class="cta-btns text-center pt-5">
-          <a href="#" class="btn btn-brand me-sm-2"> Entre em Contato</a>
-          <a href="#" class="btn btn-outline-brand ms-sm-2">Deixe sua Avaliação</a>
-        </div>
-      </div>
-    </section>
+      <section id="contato">
+        <article id="texto-contato">
+          <h2>Vamos trabalhar juntos!</h2>
+          <p>Deseja um site profissional para sua empresa?</p>
+          <p>Estou aqui para ajudar.</p>
+          <span
+            >Será um privilégio fazer parte da sua jornada rumo ao
+            sucesso.</span
+          >
+        </article>
+      </section>
+    </main>
 
-    <section id="contato">
-      <div class="container">
-        <div class="row ">
-          <div class="col-lg-8 mx-auto">
-            <form class="row">
-              <div class="col-12 mb-4 text-center">
-                <h1>Entre em Contato</h1>
-                <p>Nos envie uma mensagem e agende um horário agora mesmo</p>
-              </div>
-              <div class="form-group col-12">
-                <input type="text" name="name" id="name" class="form-control" placeholder="Nome">
-              </div>
-              <div class="form-group col-12">
-                <input type="text" name="phone" id="phone" class="form-control" placeholder="Número">
-              </div>
-              <div class="form-group col-12">
-                <input type="text" name="date" id="date" class="form-control" placeholder="Email">
-              </div>
-              <div class="form-group col-12 pb-4">
-                <textarea name="" class="form-control" placeholder="Mensagem" id="" cols="30" rows="5"></textarea>
-              </div class="form-group col-12 mt-4">
-                <button type="submit" value="Enviar" class="btn btn-brand">Enviar</button>
-              </div>
-            </form>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer>
-      <div class="footer-top">
-        <div class="container">
-          <div class="row gy-5">
-            <div class="col-lg-4">
-              <h3 class="mb-3">Barba e Navalha</h3>
-              <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-                Accusamus iste, sed suscipit porro omnis beatae dicta magni quas
-                numquam, rem nobis quidem sit!
-              </p>
-              <div class="social-links">
-                <a href="#"> <i class="ri-facebook-fill"></i></a>
-                <a href="#"> <i class="ri-whatsapp-fill"></i></a>
-                <a href="#"> <i class="ri-instagram-fill"></i></a>
-                <a href="#"> <i class="ri-google-fill"></i></a>
-              </div>
-            </div>
-            <div class="col-lg-3 offset-lg-1">
-              <h4 class="mb-3">Horário de Funcionamento</h4>
-              <div>
-                <h5>Segunda - Sabado</h5>
-                <p>9:00 - 18:00</p>
-              </div>
-              <div>
-                <h5>Domingo</h5>
-                <p>Fechado</p>
-              </div>
-            </div>
-            <div class="col-lg-3">
-              <h4>Contato</h4>
-              <p>
-                <i class="ri-map-pin-2-fill"></i>
-                <span> Centro 204 - Unaí MG</span>
-              </p>
-
-              <p>
-                <i class="ri-mail-fill"></i>
-                <span> barbaenavalha@gmail.com </span>
-              </p>
-
-              <p>
-                <i class="ri-phone-fill"></i>
-                <span> (38) 9 9999-9999</span>
-              </p>
-            </div>
-          </div>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <div class="container">
-          <div class="row justify-content-between">
-            <div class="col-auto">
-              <p>Copyrights @Barba&Navalha. Todos os direitos reservados</p>
-            </div>
-            <div class="col-auto">
-              <div class="row">
-                <p> Criado por <a href="https://arthur-diasz.github.io/Portfolio2.0/" target="_blank">ArthurDEV</a> </p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer>
-
-    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/navbar.js"></script>
+    <script src="js/main.js"></script>
   </body>
 </html>
